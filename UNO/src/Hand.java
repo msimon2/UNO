@@ -1,9 +1,14 @@
 
-public abstract class CardMaker
+public class Hand
 	{
-	protected String color, purpose;
-	protected int value;
-
+	String color, purpose;
+	int value;
+	public Hand(String c, String p, int v)
+		{
+		color=c;
+		purpose =p;
+		value=v;
+		}
 	public String getColor()
 		{
 		return color;
